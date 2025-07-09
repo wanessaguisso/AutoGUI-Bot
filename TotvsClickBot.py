@@ -36,7 +36,7 @@ def localizar_e_clicar(imagem, descricao, cliques=2, tempo_espera=5, confidence=
 try:
     # Localiza e clica duas vezes no ícone do TOTVS RM
     localizar_e_clicar(
-        imagem=r"totvsRM_icon.png",        
+        imagem=r"totvsRM_icon.png", #ajuste o caminho da imagem conforme necessário        
         descricao="ícone do TOTVS RM"
     )
     time.sleep(20)  # Aguarda 20 segundos para o sistema abrir
